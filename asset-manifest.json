@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/landing-page-becode/static/css/main.602addab.css",
-    "main.js": "/landing-page-becode/static/js/main.35f58d25.js",
+    "main.css": "/landing-page-becode/static/css/main.8af3a9dc.css",
+    "main.js": "/landing-page-becode/static/js/main.bf98c6f1.js",
     "static/media/banner.jpg": "/landing-page-becode/static/media/banner.63a65a8793812357caeb.jpg",
     "static/media/platform-image.png": "/landing-page-becode/static/media/platform-image.7f43a49b305383bc1399.png",
     "static/media/services-img.png": "/landing-page-becode/static/media/services-img.0e4d5c6b6140f0afeb3a.png",
-    "static/media/insta.png": "/landing-page-becode/static/media/insta.e6b854e5b8ee959d88bb.png",
     "static/media/map.png": "/landing-page-becode/static/media/map.efa52d9d9224a9649ee6.png",
     "static/media/computer-illustration.png": "/landing-page-becode/static/media/computer-illustration.f841ca4f462def719c6e.png",
     "static/media/Avenir-Book.ttf": "/landing-page-becode/static/media/Avenir-Book.f45ed4c79907a9f47ec9.ttf",
     "static/media/logo.png": "/landing-page-becode/static/media/logo.6af399e92033a7822511.png",
     "static/media/check.png": "/landing-page-becode/static/media/check.623ef8691dfa63cadc5c.png",
+    "static/media/instagram.svg": "/landing-page-becode/static/media/instagram.4d969dd141d389ed7a2fe7584b56d681.svg",
     "index.html": "/landing-page-becode/index.html",
-    "main.602addab.css.map": "/landing-page-becode/static/css/main.602addab.css.map",
-    "main.35f58d25.js.map": "/landing-page-becode/static/js/main.35f58d25.js.map"
+    "static/media/linkedin.svg": "/landing-page-becode/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "main.8af3a9dc.css.map": "/landing-page-becode/static/css/main.8af3a9dc.css.map",
+    "main.bf98c6f1.js.map": "/landing-page-becode/static/js/main.bf98c6f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.602addab.css",
-    "static/js/main.35f58d25.js"
+    "static/css/main.8af3a9dc.css",
+    "static/js/main.bf98c6f1.js"
   ]
 }
