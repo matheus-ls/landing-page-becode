@@ -45,11 +45,24 @@
   }
 
   @media screen and (max-width: 800px) {
-    .info-banner {
-      display: none;
-    }
     .cards {
       gap: 15px;
+    }
+
+    .info {
+      flex-direction: column;
+      gap: 0;
+
+      p {
+        color: #fff;
+        font-size: 1.3em;
+        padding-bottom: 40px;
+        text-align: center;
+      }
+
+      .info-item {
+        width: 100%;
+      }
     }
   }
 }

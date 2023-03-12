@@ -6,6 +6,7 @@ const images = {
   check: require("./images/check.png"),
   platformImage: require("./images/platform-image.png"),
   phone: require("./images/phone.png"),
+  map: require("./images/map.png"),
 };
 
 export default images;
