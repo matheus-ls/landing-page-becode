@@ -18,6 +18,12 @@
 
     .list-item {
       width: 50%;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
     }
 
     .list-banner {
@@ -34,7 +40,6 @@
   .platforms {
     .list-items {
       flex-direction: column;
-      align-items: center;
 
       .list-banner {
       display: flex;
@@ -50,7 +55,6 @@
     .list-item {
       order: 2;
       width: 100%;
-      text-align: center;
     }
     }
   }

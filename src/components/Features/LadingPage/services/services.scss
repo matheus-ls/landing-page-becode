@@ -19,19 +19,17 @@
   .cards {
     display: flex;
     gap: 50px;
-    justify-content: center;
     flex-wrap: wrap;
   }
 
   .info {
-    margin: 80px auto;
     display: flex;
     gap: 50px;
-    align-items: center;
     flex-wrap: wrap;
 
     .info-item {
       width: calc(50% - 50px);
+      margin: 70px 0;
     }
     p {
       color: #fff;
@@ -52,18 +50,16 @@
     .info {
       flex-direction: column;
       gap: 0;
-      margin: 20px auto;
 
       p {
         color: #fff;
         font-size: 1.3em;
         padding-bottom: 40px;
-        text-align: center;
       }
 
       .info-item {
         width: 100%;
-        text-align: center;
+        margin-bottom: 30px;
       }
     }
   }
