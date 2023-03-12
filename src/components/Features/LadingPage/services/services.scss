@@ -1,0 +1,55 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  .services-container {
+    background: linear-gradient(
+      rgba(108, 65, 255, 0.05) 28%,
+      #1e124c 28%,
+      #1e124c 50%,
+      #1a0f42 50%,
+      #1a0f42 100%
+    );
+  }
+
+  h2 {
+    text-align: center;
+    padding: 78px 0;
+  }
+
+  .cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .info {
+    margin: 80px auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .info-item {
+      width: calc(50% - 50px);
+    }
+    p {
+      color: #fff;
+      font-size: 2.25em;
+      padding-bottom: 40px;
+    }
+  }
+
+  .services-banner {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .info-banner {
+      display: none;
+    }
+    .cards {
+      gap: 15px;
+    }
+  }
+}

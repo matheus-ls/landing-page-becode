@@ -1,0 +1,21 @@
+header {
+  padding: 63px 0;
+  justify-content: space-between;
+  display: flex;
+  font-size: 16px;
+  height: 56px;
+  font-family: "Avenir-Book";
+  color: #fff;
+  font-weight: lighter;
+  align-items: center;
+  .nav-items {
+    display: flex;
+    gap: 39px;
+  }
+
+  @media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.Hero {
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+  padding-top: 191px;
+  position: relative;
+
+  h2 {
+    font-size: 3.875em;
+    font-weight: 500;
+    max-width: 12ch;
+    line-height: 1.15;
+    letter-spacing: 0.9;
+  }
+
+  &::before {
+    content: ("");
+    width: 119px;
+    height: 4px;
+    top: 138px;
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 4px;
+  }
+
+  p {
+    max-width: 40ch;
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 20px 0 67px 0;
+  }
+
+  img {
+    width: 550px;
+  }
+  @media screen and (max-width: 600px) {
+    .computer {
+        display: none;
+    }
+    h2 {
+      font-size: 3em;  
+    }
+  }
+}

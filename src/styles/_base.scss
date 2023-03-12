@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    font-family: 'Avenir-Book';
+}
+
+.container {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 90vw;
+    }
+}

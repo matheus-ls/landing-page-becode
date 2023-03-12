@@ -1,0 +1,42 @@
+footer {
+  background-color: #1a0f42;
+  padding-bottom: 40px;
+  color: #fff;
+  text-align: center;
+
+   .copy {
+    padding-top: 30px;
+  }
+  .footer {
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    .logo {
+      margin-top: 91px;
+    }
+
+    p {
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  .contacts {
+    display: flex;
+    gap: 30px;
+
+    li {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  .social {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  }
+}
