@@ -1,6 +1,7 @@
 import React from "react";
 import "./platforms.scss";
 import images from "./../../../../assets";
+import { FaCheckCircle } from "react-icons/fa";
 
 function Platforms() {
   return (
@@ -14,23 +15,23 @@ function Platforms() {
           <h4>Criação de plataformas:</h4>
           <ul>
             <li>
-              <img src={images.check} alt="" width={25} />
+              <FaCheckCircle className="checkIcon" />
               Educacionais - Corporativas
             </li>
             <li>
-              <img src={images.check} alt="" width={25} />
+              <FaCheckCircle className="checkIcon" />
               Gestão
             </li>
             <li>
-              <img src={images.check} alt="" width={25} />
+              <FaCheckCircle className="checkIcon" />
               Venda (lojas virtuais)
             </li>
             <li>
-              <img src={images.check} alt="" width={25} />
+              <FaCheckCircle className="checkIcon" />
               Sistema ERP (enterprise resource planning)
             </li>
             <li>
-              <img src={images.check} alt="" width={25} />
+              <FaCheckCircle className="checkIcon" />
               Personalizados
             </li>
           </ul>

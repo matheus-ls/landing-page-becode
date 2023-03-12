@@ -16,6 +16,24 @@
     gap: 39px;
   }
 
+  .mobile {
+    display: none;
+  }
+
+  .btn-mobile {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  @media screen and (max-width: 790px) {
+
+    .btn-mobile {
+      display: block;
+    }
+  }
+
   @media screen and (max-width: 600px) {
     nav {
       display: none;
@@ -34,7 +52,7 @@
   height: 90px;
 
   .header {
-    color: #6C41FF;
+    color: #6c41ff;
     padding: 45px 0;
   }
 }

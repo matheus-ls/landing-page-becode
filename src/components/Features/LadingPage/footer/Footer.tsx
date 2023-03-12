@@ -1,6 +1,7 @@
 import React from "react";
 import images from "./../../../../assets";
 import "./footer.scss";
+import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -13,27 +14,23 @@ function Footer() {
         </p>
         <ul className="contacts">
           <li>
-            <img src={images.phone} alt="" width={20} />
+            <FaPhoneAlt className="phone"/>
             <p>(31) 99497-0540</p>
           </li>
           <li>
-            <img src={images.phone} alt="" width={20} />
-            <p>(31) 99497-0540</p>
+            <FaPhoneAlt className="phone"/>
+            <p>(31) 98356-8142</p>
           </li>
         </ul>
         <ul className="social">
           <li>
             <a href="/">
-              <img src={images.insta} alt="" width={20} />
+              <FaInstagram className="insta" />
             </a>
           </li>
           <li>
             <a href="/">
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                alt=""
-                width={20}
-              />
+              <FaLinkedin className="linkedin" />
             </a>
           </li>
         </ul>

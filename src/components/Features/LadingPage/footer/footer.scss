@@ -30,6 +30,11 @@ footer {
       li {
         display: flex;
         gap: 10px;
+        align-items: center;
+
+        .phone {
+          color: #3B43F2;
+        }
       }
     }
 
@@ -37,6 +42,11 @@ footer {
       display: flex;
       gap: 40px;
       margin-bottom: 50px;
+
+      .linkedin, .insta {
+        color: #fff;
+        font-size: 30px;
+      }
     }
   }
 
