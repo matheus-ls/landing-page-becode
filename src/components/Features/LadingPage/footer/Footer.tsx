@@ -24,12 +24,16 @@ function Footer() {
         <ul className="social">
           <li>
             <a href="/">
-              <img src={images.phone} alt="" width={20} />
+              <img src={images.insta} alt="" width={20} />
             </a>
           </li>
           <li>
             <a href="/">
-              <img src={images.phone} alt="" width={20} />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                alt=""
+                width={20}
+              />
             </a>
           </li>
         </ul>

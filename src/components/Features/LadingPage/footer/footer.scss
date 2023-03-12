@@ -4,7 +4,7 @@ footer {
   color: #fff;
   text-align: center;
 
-   .copy {
+  .copy {
     padding-top: 30px;
   }
   .footer {
@@ -19,24 +19,34 @@ footer {
     }
 
     p {
-    font-size: 1.2em;
-    color: #fff;
-  }
+      font-size: 1.2em;
+      color: #fff;
+    }
 
-  .contacts {
-    display: flex;
-    gap: 30px;
-
-    li {
+    .contacts {
       display: flex;
-      gap: 10px;
+      gap: 30px;
+
+      li {
+        display: flex;
+        gap: 10px;
+      }
+    }
+
+    .social {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 50px;
     }
   }
 
-  .social {
-    display: flex;
-    gap: 40px;
-    margin-bottom: 50px;
-  }
+  @media screen and (max-width: 600px) {
+    .footer {
+      .contacts {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 }

@@ -31,9 +31,11 @@
     margin: 20px 0 67px 0;
   }
 
-  img {
-    width: 550px;
-    overflow-x: hidden;
+  .computer {
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+    overflow: hidden;
   }
   @media screen and (max-width: 600px) {
 

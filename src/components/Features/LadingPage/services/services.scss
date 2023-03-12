@@ -9,11 +9,11 @@
       #1a0f42 50%,
       #1a0f42 100%
     );
-  }
 
-  h2 {
-    text-align: center;
-    padding: 78px 0;
+    h2 {
+      text-align: center;
+      padding: 78px 0;
+    }
   }
 
   .cards {
@@ -52,6 +52,7 @@
     .info {
       flex-direction: column;
       gap: 0;
+      margin: 20px auto;
 
       p {
         color: #fff;
@@ -62,6 +63,7 @@
 
       .info-item {
         width: 100%;
+        text-align: center;
       }
     }
   }

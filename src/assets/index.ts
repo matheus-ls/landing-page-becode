@@ -7,6 +7,8 @@ const images = {
   platformImage: require("./images/platform-image.png"),
   phone: require("./images/phone.png"),
   map: require("./images/map.png"),
+  insta: require("./images/insta.png"),
+  linkedin: require("./images/linkedin.png"),
 };
 
 export default images;
