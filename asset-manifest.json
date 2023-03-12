@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/landing-page-becode/static/css/main.0196d22b.css",
-    "main.js": "/landing-page-becode/static/js/main.cb41ab0a.js",
+    "main.css": "/landing-page-becode/static/css/main.bf998072.css",
+    "main.js": "/landing-page-becode/static/js/main.e3a6bc33.js",
     "static/media/banner.jpg": "/landing-page-becode/static/media/banner.35143c72487ac4b3696b.jpg",
     "static/media/platform-image.png": "/landing-page-becode/static/media/platform-image.7f43a49b305383bc1399.png",
     "static/media/services-img.png": "/landing-page-becode/static/media/services-img.0e4d5c6b6140f0afeb3a.png",
+    "static/media/insta.png": "/landing-page-becode/static/media/insta.e6b854e5b8ee959d88bb.png",
     "static/media/map.png": "/landing-page-becode/static/media/map.efa52d9d9224a9649ee6.png",
     "static/media/computer-illustration.png": "/landing-page-becode/static/media/computer-illustration.f841ca4f462def719c6e.png",
     "static/media/Avenir-Book.ttf": "/landing-page-becode/static/media/Avenir-Book.f45ed4c79907a9f47ec9.ttf",
     "static/media/logo.png": "/landing-page-becode/static/media/logo.6af399e92033a7822511.png",
     "static/media/check.png": "/landing-page-becode/static/media/check.623ef8691dfa63cadc5c.png",
     "index.html": "/landing-page-becode/index.html",
-    "main.0196d22b.css.map": "/landing-page-becode/static/css/main.0196d22b.css.map",
-    "main.cb41ab0a.js.map": "/landing-page-becode/static/js/main.cb41ab0a.js.map"
+    "main.bf998072.css.map": "/landing-page-becode/static/css/main.bf998072.css.map",
+    "main.e3a6bc33.js.map": "/landing-page-becode/static/js/main.e3a6bc33.js.map"
   },
   "entrypoints": [
-    "static/css/main.0196d22b.css",
-    "static/js/main.cb41ab0a.js"
+    "static/css/main.bf998072.css",
+    "static/js/main.e3a6bc33.js"
   ]
 }
