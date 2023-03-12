@@ -19,17 +19,18 @@
   .cards {
     display: flex;
     gap: 50px;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   .info {
+    margin: 80px auto;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
 
     .info-item {
       width: calc(50% - 50px);
-      margin: 70px 0;
     }
     p {
       color: #fff;
@@ -59,7 +60,6 @@
 
       .info-item {
         width: 100%;
-        margin-bottom: 30px;
       }
     }
   }
