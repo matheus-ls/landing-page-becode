@@ -1,23 +1,29 @@
 .platforms {
   background-color: rgba(108, 65, 255, 0.05);
   padding: 90px 0;
-
+  color: #363636;
   .list-items {
     display: flex;
 
     h2 {
       font-size: 2.25em;
       line-height: 1;
-      padding: 70px 0;
+      padding: 30px 0;
     }
 
     h4 {
-      margin: 30px 0 15px 0;
+      margin: 15px 0 15px 0;
       font-size: 1.12em;
     }
 
     .list-item {
       width: 50%;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
 
       li {
         display: flex;
