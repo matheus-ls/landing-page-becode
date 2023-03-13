@@ -34,11 +34,7 @@ const Header = () => {
     <header className={isSticky ? "sticky" : ""}>
       <div className="container header">
         <div className="logo">
-          <img
-            src={isSticky ? images.logoPurple : images.logo}
-            alt=""
-            width={200}
-          />
+          <img src={isSticky ? images.logoPurple : images.logo} alt="" />
         </div>
         <nav>
           <ul className="nav-items">
