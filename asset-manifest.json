@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page-becode/static/css/main.da1e7042.css",
+    "main.css": "/landing-page-becode/static/css/main.0f2e88c0.css",
     "main.js": "/landing-page-becode/static/js/main.df5cf84f.js",
     "static/media/banner.jpg": "/landing-page-becode/static/media/banner.63a65a8793812357caeb.jpg",
     "static/media/platform-image.png": "/landing-page-becode/static/media/platform-image.7f43a49b305383bc1399.png",
@@ -13,11 +13,11 @@
     "static/media/instagram.svg": "/landing-page-becode/static/media/instagram.4d969dd141d389ed7a2fe7584b56d681.svg",
     "index.html": "/landing-page-becode/index.html",
     "static/media/linkedin.svg": "/landing-page-becode/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "main.da1e7042.css.map": "/landing-page-becode/static/css/main.da1e7042.css.map",
+    "main.0f2e88c0.css.map": "/landing-page-becode/static/css/main.0f2e88c0.css.map",
     "main.df5cf84f.js.map": "/landing-page-becode/static/js/main.df5cf84f.js.map"
   },
   "entrypoints": [
-    "static/css/main.da1e7042.css",
+    "static/css/main.0f2e88c0.css",
     "static/js/main.df5cf84f.js"
   ]
 }
