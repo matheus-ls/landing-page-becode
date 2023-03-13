@@ -26,7 +26,7 @@
 
   .isOpen {
     display: block;
-    background-color: #0e0e0e;
+    background-color: #1A0F42;
     position: fixed;
     color: #fff;
     top: 0;
@@ -35,6 +35,17 @@
     z-index: 999;
     bottom: 50%;
     border-radius: 0 0 0 20px;
+    animation-name: open;
+    animation-duration: 1s;
+
+    @keyframes open {
+      from {
+        transform: translateX(100vw);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
 
     .nav-items {
       display: flex;
@@ -54,7 +65,7 @@
 
     .nav-items {
       font-size: 1.4em;
-      margin: 25px 10px 10px 10px;
+      margin: 25px 10px 10px 25px;
     }
   }
 
@@ -89,7 +100,10 @@
   height: 90px;
 
   .header {
-    color: #6c41ff;
     padding: 45px 0;
+
+    a {
+      color: #6c41ff;;
+    }
   }
 }

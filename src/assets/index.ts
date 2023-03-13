@@ -1,5 +1,6 @@
 const images = {
   logo: require("./images/logo.png"),
+  logoPurple: require("./images/logo-purple.png"),
   heroComputer: require("./images/computer-illustration.png"),
   icon: require("./images/130258.png"),
   servicesBanner: require("./images/services-img.png"),
