@@ -11,6 +11,10 @@
   font-weight: lighter;
   align-items: center;
 
+  a {
+    color: #fff;
+  }
+
   .nav-items {
     display: flex;
     gap: 39px;
@@ -49,9 +53,9 @@
     }
 
     .nav-items {
-        font-size: 1.4em;
-        margin: 25px 10px 10px 10px;
-      }
+      font-size: 1.4em;
+      margin: 25px 10px 10px 10px;
+    }
   }
 
   .btn-mobile {

@@ -33,7 +33,11 @@ footer {
         align-items: center;
 
         .phone {
-          color: #3B43F2;
+          color: #3b43f2;
+        }
+
+        a {
+          color: #fff;
         }
       }
     }
@@ -43,7 +47,8 @@ footer {
       gap: 40px;
       margin-bottom: 50px;
 
-      .linkedin, .insta {
+      .linkedin,
+      .insta {
         color: #fff;
         font-size: 30px;
       }

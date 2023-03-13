@@ -14,12 +14,12 @@ function Footer() {
         </p>
         <ul className="contacts">
           <li>
-            <FaPhoneAlt className="phone"/>
-            <p>(31) 99497-0540</p>
+            <FaPhoneAlt className="phone" />
+              <a href="tel:31994970540">(31) 99497-0540</a>
           </li>
           <li>
-            <FaPhoneAlt className="phone"/>
-            <p>(31) 98356-8142</p>
+            <FaPhoneAlt className="phone" />
+              <a href="tel:31983568142">(31) 98356-8142</a>
           </li>
         </ul>
         <ul className="social">

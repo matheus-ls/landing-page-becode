@@ -40,23 +40,39 @@ useEffect(() => {
         </div>
         <nav>
           <ul className="nav-items">
-            <li>Home</li>
-            <li>Sobre nós</li>
-            <li>Serviços</li>
-            <li>Perguntas Frequentes</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="/">Sobre nós</a>
+            </li>
+            <li>
+              <a href="/">Serviços</a>
+            </li>
+            <li>
+              <a href="/">Perguntas Frequentes</a>
+            </li>
           </ul>
         </nav>
         <FaBars onClick={handleMenuClick} className="btn-mobile" />
         <nav className={isOpen ? "isOpen" : "isClose"}>
           <div className="mobile-menu-header">
-            <FaChevronLeft onClick={handleMenuClick} className="leftIcon"/>
+            <FaChevronLeft onClick={handleMenuClick} className="leftIcon" />
             <img src={images.logo} alt="" width={100} />
           </div>
           <ul className="nav-items">
-            <li>Home</li>
-            <li>Sobre nós</li>
-            <li>Serviços</li>
-            <li>Perguntas Frequentes</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="/">Sobre nós</a>
+            </li>
+            <li>
+              <a href="/">Serviços</a>
+            </li>
+            <li>
+              <a href="/">Perguntas Frequentes</a>
+            </li>
           </ul>
         </nav>
       </div>
