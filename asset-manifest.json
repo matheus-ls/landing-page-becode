@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page-becode/static/css/main.0f2e88c0.css",
-    "main.js": "/landing-page-becode/static/js/main.df5cf84f.js",
+    "main.css": "/landing-page-becode/static/css/main.adb35b9e.css",
+    "main.js": "/landing-page-becode/static/js/main.0cc44a57.js",
     "static/media/banner.jpg": "/landing-page-becode/static/media/banner.63a65a8793812357caeb.jpg",
     "static/media/platform-image.png": "/landing-page-becode/static/media/platform-image.7f43a49b305383bc1399.png",
     "static/media/services-img.png": "/landing-page-becode/static/media/services-img.0e4d5c6b6140f0afeb3a.png",
@@ -13,11 +13,11 @@
     "static/media/instagram.svg": "/landing-page-becode/static/media/instagram.4d969dd141d389ed7a2fe7584b56d681.svg",
     "index.html": "/landing-page-becode/index.html",
     "static/media/linkedin.svg": "/landing-page-becode/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "main.0f2e88c0.css.map": "/landing-page-becode/static/css/main.0f2e88c0.css.map",
-    "main.df5cf84f.js.map": "/landing-page-becode/static/js/main.df5cf84f.js.map"
+    "main.adb35b9e.css.map": "/landing-page-becode/static/css/main.adb35b9e.css.map",
+    "main.0cc44a57.js.map": "/landing-page-becode/static/js/main.0cc44a57.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f2e88c0.css",
-    "static/js/main.df5cf84f.js"
+    "static/css/main.adb35b9e.css",
+    "static/js/main.0cc44a57.js"
   ]
 }
