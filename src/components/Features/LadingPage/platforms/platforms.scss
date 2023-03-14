@@ -1,6 +1,6 @@
 .platforms {
   background-color: rgba(108, 65, 255, 0.05);
-  padding: 90px 0;
+  padding: 20px 0;
   color: #363636;
   .list-items {
     display: flex;
@@ -54,16 +54,15 @@
       .list-banner {
       display: flex;
       flex-direction: column;
-      order: 1;
 
       .banner {
-        width: 80%;
+        width: 100%;
         align-self: center;
       }
     }
 
     .list-item {
-      order: 2;
+   
       width: 100%;
     }
     }
