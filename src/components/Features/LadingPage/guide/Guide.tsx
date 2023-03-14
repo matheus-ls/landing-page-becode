@@ -12,7 +12,7 @@ const Guide = () => {
       <div className="flex-container">
         <div className="flex-item">
           <div className="icon">
-            <img src={images.icon} alt="" />
+            <img src={images.dispositivo} alt="" />
           </div>
           <h3>Personalização</h3>
           <p>
@@ -22,7 +22,7 @@ const Guide = () => {
         </div>
         <div className="flex-item">
           <div className="icon">
-            <img src={images.icon} alt="" />
+            <img src={images.tecnologia} alt="" />
           </div>
           <h3>Tecnologia</h3>
           <p>
@@ -32,14 +32,14 @@ const Guide = () => {
         </div>
         <div className="flex-item">
           <div className="icon">
-            <img src={images.icon} alt="" />
+            <img src={images.encriptacao} alt="" />
           </div>
           <h3>Segurança</h3>
           <p>Todos seus dados e conteúdos protegidos.</p>
         </div>
         <div className="flex-item">
           <div className="icon">
-            <img src={images.icon} alt="" />
+            <img src={images.ux} alt="" />
           </div>
           <h3>User Experience</h3>
           <p>
@@ -49,14 +49,14 @@ const Guide = () => {
         </div>
         <div className="flex-item">
           <div className="icon">
-            <img src={images.icon} alt="" />
+            <img src={images.relatorio} alt="" />
           </div>
           <h3>Relatórios</h3>
           <p>Plataformas estáveis para o sucesso do seu negócio.</p>
         </div>
         <div className="flex-item">
           <div className="icon">
-            <img src={images.icon} alt="" />
+            <img src={images.fone} alt="" />
           </div>
           <h3>Suporte</h3>
           <p>

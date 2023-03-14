@@ -4,13 +4,14 @@ const images = {
   heroComputer: require("./images/computer-illustration.png"),
   icon: require("./images/130258.png"),
   servicesBanner: require("./images/services-img.png"),
-  check: require("./images/check.png"),
   platformImage: require("./images/platform-image.png"),
-  phone: require("./images/phone.png"),
   map: require("./images/map.png"),
-  insta: require("./images/instagram.svg"),
-  linkedin: require("./images/linkedin.svg"),
-  arroyDown: require("./images/linkedin.svg"),
+  dispositivo: require("./images/icons-guide/dispositivos.png"),
+  encriptacao: require("./images/icons-guide/encriptacao.png"),
+  tecnologia: require("./images/icons-guide/tecnologia.png"),
+  fone: require("./images/icons-guide/fones-de-ouvido.png"),
+  relatorio: require("./images/icons-guide/relatorio-de-negocios.png"),
+  ux: require("./images/icons-guide/ux.png"),
 };
 
 export default images;

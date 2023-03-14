@@ -82,9 +82,14 @@
   }
 
   @media screen and (max-width: 790px) {
-    .btn-mobile {
-      display: block;
+    .logo img {
+      width: 140px;
     }
+
+    .nav-items {
+    display: flex;
+    gap: 20px;
+  }
   }
 
   @media screen and (max-width: 600px) {
@@ -94,6 +99,10 @@
 
     .logo img {
       width: 150px;
+    }
+
+    .btn-mobile {
+      display: block;
     }
   }
 }
