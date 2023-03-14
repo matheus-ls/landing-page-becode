@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./header.scss";
-import images from "./../../../../assets";
-import { FaBars, FaChevronLeft, FaTimes } from "react-icons/fa";
+import logo from "./../../../../assets/images/becode-logo.svg";
+import logoBlue from './../../../../assets/images/becode-logo-azul.svg';
+
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
   const [isSticky, setSticky] = useState(false);
@@ -34,7 +36,7 @@ const Header = () => {
     <header className={isSticky ? "sticky" : ""}>
       <div className="container header">
         <div className="logo">
-          <img src={isSticky ? images.logoPurple : images.logo} alt="" />
+          <img src={isSticky ? logoBlue : logo} alt="" />
         </div>
         <nav>
           <ul className="nav-items">
@@ -55,8 +57,7 @@ const Header = () => {
         <FaBars onClick={handleMenuClick} className="btn-mobile" />
         <nav className={isOpen ? "isOpen" : "isClose"}>
           <div className="mobile-menu-header">
-            <img src={images.logo} alt="" width={100} />
-
+            <img src={logo} alt="" />
             <FaTimes onClick={handleMenuClick} className="leftIcon" />
           </div>
           <ul className="nav-items">

@@ -1,5 +1,5 @@
 import React from "react";
-import images from "./../../../../assets";
+import logo from "./../../../../assets/images/becode-logo.svg";
 import "./footer.scss";
 import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 
@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer container">
-        <img className="logo" src={images.logo} alt="" width={221} />
+        <img className="logo" src={logo} alt="" width={221} />
         <p>
           Tecnologia, Inovação, Segurança, Agilidade e Eficiência. Tudo em um só
           lugar.

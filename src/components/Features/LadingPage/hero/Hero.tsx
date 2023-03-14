@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.scss";
-import images from "./../../../../assets";
+import images from "./../../../../assets/";
 import Button from "../../../Generics/button/Button";
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
         </p>
         <Button content="Conheça mais" />
       </div>
-      <img className="computer" src={images.heroComputer} alt="" />
+      <img className="computer" src={images.pngBanner} alt="" />
     </div>
   );
 };

@@ -4,7 +4,6 @@
   color: #363636;
   .list-items {
     display: flex;
-    justify-content: space-between;
 
     h2 {
       font-size: 2.25em;
@@ -18,7 +17,8 @@
     }
 
     .list-item {
-      width: 50%;
+      width: 70%;
+
 
       ul {
         display: flex;
@@ -39,9 +39,8 @@
 
     .list-banner {
       .banner {
-        width: 80%;
-        object-fit: cover;
-        object-position: top left;
+        width: 100%;
+        justify-self: end;
       }
     }
   }

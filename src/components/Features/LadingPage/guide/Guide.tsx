@@ -1,8 +1,49 @@
 import React from "react";
 import "./guide.scss";
-import images from "./../../../../assets/";
+import personalizacao from "./../../../../assets/images/personalizacao.svg";
+import tecnologia from "./../../../../assets/images/tecnologia.svg";
+import seguranca from "./../../../../assets/images/seguranca.svg";
+import userExperience from "./../../../../assets/images/user-experience.svg";
+import relatorios from "./../../../../assets/images/relatorios.svg";
+import suporte from "./../../../../assets/images/suporte.svg";
 
 const Guide = () => {
+  const guideItems = [
+    {
+      icon: personalizacao,
+      title: "Personalização",
+      content:
+        "Serviços desenvolvidos de acordo com a necessidade e identidade da empresa.",
+    },
+    {
+      icon: tecnologia,
+      title: "Tecnologia",
+      content:
+        "Automatize processos, reduza seus custos e aumente a produtividade de sua empresa.",
+    },
+    {
+      icon: seguranca,
+      title: "Segurança",
+      content: "Todos seus dados e conteúdos protegidos.",
+    },
+    {
+      icon: userExperience,
+      title: "User Experience",
+      content:
+        "Plataformas intuitivas, elaboradas pensando em uma melhor experiência para o usuário.",
+    },
+    {
+      icon: relatorios,
+      title: "Relatórios",
+      content: "Plataformas estáveis para o sucesso do seu negócio.",
+    },
+    {
+      icon: suporte,
+      title: "Suporte",
+      content:
+        "Equipe disponível para auxiliar sua empresa no que for necessário.",
+    },
+  ];
   return (
     <div className="guide container">
       <h2>
@@ -10,59 +51,17 @@ const Guide = () => {
         digital.
       </h2>
       <div className="flex-container">
-        <div className="flex-item">
-          <div className="icon">
-            <img src={images.dispositivo} alt="" />
-          </div>
-          <h3>Personalização</h3>
-          <p>
-            Serviços desenvolvidos de acordo com a necessidade e identidade da
-            empresa.
-          </p>
-        </div>
-        <div className="flex-item">
-          <div className="icon">
-            <img src={images.tecnologia} alt="" />
-          </div>
-          <h3>Tecnologia</h3>
-          <p>
-            Automatize processos, reduza seus custos e aumente a produtividade
-            de sua empresa.
-          </p>
-        </div>
-        <div className="flex-item">
-          <div className="icon">
-            <img src={images.encriptacao} alt="" />
-          </div>
-          <h3>Segurança</h3>
-          <p>Todos seus dados e conteúdos protegidos.</p>
-        </div>
-        <div className="flex-item">
-          <div className="icon">
-            <img src={images.ux} alt="" />
-          </div>
-          <h3>User Experience</h3>
-          <p>
-            Plataformas intuitivas, elaboradas pensando em uma melhor
-            experiência para o usuário.
-          </p>
-        </div>
-        <div className="flex-item">
-          <div className="icon">
-            <img src={images.relatorio} alt="" />
-          </div>
-          <h3>Relatórios</h3>
-          <p>Plataformas estáveis para o sucesso do seu negócio.</p>
-        </div>
-        <div className="flex-item">
-          <div className="icon">
-            <img src={images.fone} alt="" />
-          </div>
-          <h3>Suporte</h3>
-          <p>
-            Equipe disponível para auxiliar sua empresa no que for necessário.
-          </p>
-        </div>
+        {guideItems.map((item, _) => {
+          return (
+            <div className="flex-item">
+              <div className="icon">
+                <img src={item.icon} alt="" />
+              </div>
+              <h3>{item.title}</h3>
+              <p>{item.content}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -1,10 +1,8 @@
 const images = {
-  logo: require("./images/logo.png"),
-  logoPurple: require("./images/logo-purple.png"),
-  heroComputer: require("./images/computer-illustration.png"),
+  pngBanner: require("./images/png-banner.png"),
   icon: require("./images/130258.png"),
-  servicesBanner: require("./images/services-img.png"),
-  platformImage: require("./images/platform-image.png"),
+  image2: require("./images/image2.png"),
+  platformImage: require("./images/mockup2.png"),
   map: require("./images/map.png"),
   dispositivo: require("./images/icons-guide/dispositivos.png"),
   encriptacao: require("./images/icons-guide/encriptacao.png"),

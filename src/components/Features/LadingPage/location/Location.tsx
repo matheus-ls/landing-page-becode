@@ -1,12 +1,12 @@
 import React from "react";
-import images from "./../../../../assets/";
+import map from "./../../../../assets/images/mapa.svg";
 import './location.scss';
 
 function Location() {
   return (
     <div className="location container">
       <h2>Aprenda em qualquer lugar do mundo</h2>
-      <img src={images.map} alt="" />
+      <img src={map} alt="" />
     </div>
   );
 }
