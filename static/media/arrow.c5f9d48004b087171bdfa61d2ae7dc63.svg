@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <filter id="União_1" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="arrow" transform="translate(928.904 10249.904)">
+    <g transform="matrix(1, 0, 0, 1, -928.9, -10249.9)" filter="url(#União_1)">
+      <path id="União_1-2" data-name="União 1" d="M31,0A31,31,0,1,1,0,31,31,31,0,0,1,31,0Z" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <path id="Icon_awesome-arrow-down" data-name="Icon awesome-arrow-down" d="M24.5,13.519l1.313,1.313a1.414,1.414,0,0,1,0,2.005l-11.494,11.5a1.414,1.414,0,0,1-2.005,0l-11.5-11.5a1.414,1.414,0,0,1,0-2.005l1.313-1.313a1.421,1.421,0,0,1,2.029.024l6.791,7.128v-17a1.416,1.416,0,0,1,1.42-1.42H14.26a1.416,1.416,0,0,1,1.42,1.42v17l6.791-7.128a1.411,1.411,0,0,1,2.029-.024Z" transform="translate(-902.218 -10228.406)" fill="#805ffb"/>
+  </g>
+</svg>

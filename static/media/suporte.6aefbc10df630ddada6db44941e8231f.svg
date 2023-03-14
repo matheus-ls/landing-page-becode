@@ -1,0 +1,27 @@
+<svg id="suporte" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="96" height="96" rx="6" fill="#a2a2a2"/>
+    </clipPath>
+  </defs>
+  <g id="background">
+    <rect id="Rectangle-2" data-name="Rectangle" width="96" height="96" rx="6" fill="#a2a2a2"/>
+    <g id="background-2" data-name="background" clip-path="url(#clip-path)">
+      <g id="Color_Primary" data-name="Color/Primary" transform="translate(0 -0.933)">
+        <rect id="Rectangle-3" data-name="Rectangle" width="96" height="96" fill="#6c41ff"/>
+      </g>
+    </g>
+  </g>
+  <g id="ic_money" data-name="ic/money" transform="translate(16 15.066)">
+    <rect id="ic_support_background" data-name="ic/support background" width="64" height="64" fill="none"/>
+    <g id="ic_support" data-name="ic/support">
+      <path id="Stroke_1" data-name="Stroke 1" d="M11.429,13.714H4.571A4.573,4.573,0,0,1,0,9.143V4.571A4.573,4.573,0,0,1,4.571,0h6.857Z" transform="translate(0 45.714)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M6.857,22.857H2.286A2.284,2.284,0,0,1,0,20.571V2.286A2.284,2.284,0,0,1,2.286,0H6.857A2.284,2.284,0,0,1,9.143,2.286V20.571A2.284,2.284,0,0,1,6.857,22.857Z" transform="translate(11.429 41.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_5" data-name="Stroke 5" d="M0,13.714H6.857a4.573,4.573,0,0,0,4.571-4.571V4.571A4.573,4.573,0,0,0,6.857,0H0Z" transform="translate(52.571 45.714)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_7" data-name="Stroke 7" d="M2.286,22.857H6.857a2.284,2.284,0,0,0,2.286-2.286V2.286A2.284,2.284,0,0,0,6.857,0H2.286A2.284,2.284,0,0,0,0,2.286V20.571A2.284,2.284,0,0,0,2.286,22.857Z" transform="translate(43.429 41.143)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_9" data-name="Stroke 9" d="M0,0A27.332,27.332,0,0,1,6.855,18.142v16" transform="translate(52.574 11.574)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_11" data-name="Stroke 11" d="M0,34.144v-16A27.333,27.333,0,0,1,6.857,0" transform="translate(4.571 11.57)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_13" data-name="Stroke 13" d="M41.145,11.12a4.175,4.175,0,0,1-6.7,3.321c-4.069-3.056-8.809-5.3-13.87-5.3s-9.8,2.242-13.87,5.3A4.175,4.175,0,0,1,0,11.12v-.014A4.42,4.42,0,0,1,1.248,7.963a27.432,27.432,0,0,1,38.649,0A4.424,4.424,0,0,1,41.145,11.1Z" transform="translate(11.426 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
