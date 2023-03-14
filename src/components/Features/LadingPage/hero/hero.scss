@@ -52,4 +52,20 @@
       top: 20px;
     }
   }
+
+  @media screen and (max-width: 350px) {
+
+    padding-top: 90px;
+    .computer {
+        display: none;
+    }
+    h2 {
+      font-size: 2em;  
+      
+    }
+
+    &::before {
+      top: 20px;
+    }
+  }
 }

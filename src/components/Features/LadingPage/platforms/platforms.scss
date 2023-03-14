@@ -19,7 +19,6 @@
     .list-item {
       width: 70%;
 
-
       ul {
         display: flex;
         flex-direction: column;
@@ -30,9 +29,9 @@
         display: flex;
         align-items: center;
         gap: 15px;
-        
+
         .checkIcon {
-          color: #6C41FF;
+          color: #6c41ff;
         }
       }
     }
@@ -52,19 +51,28 @@
       flex-direction: column;
 
       .list-banner {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
 
-      .banner {
+        .banner {
+          width: 100%;
+          align-self: center;
+        }
+      }
+
+      .list-item {
         width: 100%;
-        align-self: center;
       }
     }
+  }
 
-    .list-item {
-   
-      width: 100%;
-    }
+  @media screen and (max-width: 290px) {
+    .platforms {
+      .list-items {
+      h2 {
+        font-size: 1.4em;
+      }
+      }
     }
   }
 }

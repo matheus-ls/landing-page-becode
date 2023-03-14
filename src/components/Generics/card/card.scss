@@ -26,4 +26,26 @@
     margin-bottom: 33px;
   }
 
+
+  @media screen and (max-width: 350px){
+    padding: 15px;
+
+    p {
+      font-size:  1em;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+    }
+
+    .icon {
+
+      margin-bottom: 20px;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  
+
 }

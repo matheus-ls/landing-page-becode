@@ -1,14 +1,21 @@
 .location {
-    text-align: center;
-    color: #363636;
+  text-align: center;
+  color: #363636;
 
+  h2 {
+    margin: 60px auto;
+    font-size: 2.25em;
+    line-height: 1.2;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 290px) {
     h2 {
-       margin: 60px auto;
-       font-size: 2.25em; 
-       line-height: 1.2;
+      font-size: 1.7em;
+      margin: 20px;
     }
-    img {
-        width: 100%;
-        margin-bottom: 40px;
-    }
+  }
 }

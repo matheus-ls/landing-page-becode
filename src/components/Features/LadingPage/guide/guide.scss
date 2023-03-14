@@ -70,4 +70,19 @@
       margin: 80px auto;
     }
   }
+
+  @media screen and (max-width: 290px){
+    h2 {
+      font-size: 1.7em;
+      line-height: 1;
+    }
+
+
+    .icon {
+          img {
+
+            width: 70px;
+          }
+        }
+  }
 }

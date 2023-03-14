@@ -57,7 +57,7 @@ const Header = () => {
         <FaBars onClick={handleMenuClick} className="btn-mobile" />
         <nav className={isOpen ? "isOpen" : "isClose"}>
           <div className="mobile-menu-header">
-            <img src={logo} alt="" />
+            <img className="logo" src={logo} alt="" />
             <FaTimes onClick={handleMenuClick} className="leftIcon" />
           </div>
           <ul className="nav-items">
