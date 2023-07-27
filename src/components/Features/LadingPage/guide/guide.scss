@@ -1,4 +1,8 @@
-.guide {
+#sobre {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
   padding-bottom: 80px;
   h2 {
     margin: 123px 0;

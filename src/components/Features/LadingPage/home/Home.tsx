@@ -7,7 +7,7 @@ import arrow from '../../.././../assets/images/arrow.svg';
 function Home() {
   return (
     <div id="home" className="home">
-      <img className="arrow" src={arrow} alt="" />
+      <img className="arrow" src={arrow} alt="" /> 
       <Header />
       <Hero />
     </div>

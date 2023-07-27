@@ -45,7 +45,7 @@ const Guide = () => {
     },
   ];
   return (
-    <div className="guide container">
+    <div id="sobre">
       <h2>
         Tudo que você precisa para inserir sua empresa no mercado tecnológico e
         digital.

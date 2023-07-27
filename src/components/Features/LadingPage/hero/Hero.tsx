@@ -11,7 +11,7 @@ const Hero = () => {
           Tecnologia, Inovação, Segurança, Agilidade e Eficiência. Tudo em um só
           lugar.
         </p>
-        <Button content="Conheça mais" />
+        <Button content="Conheça mais" link="https://wa.me/+553194970540"/>
       </div>
       <img className="computer" src={images.pngBanner} alt="" />
     </div>

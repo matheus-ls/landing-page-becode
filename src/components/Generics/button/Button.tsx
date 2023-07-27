@@ -3,11 +3,12 @@ import './button.scss';
 
 interface Props {
     content: string
+    link:string
 }
 function Button(props: Props) {
     return (
       <>
-        <a href="/" className='btn-primary'>
+        <a href={props.link} className='btn-primary'>
           {props.content}
         </a>
       </>

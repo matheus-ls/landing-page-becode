@@ -14,7 +14,7 @@ const LandingPage = () => {
       <Guide />
       <Services />
       <Platforms />
-      <Location />
+      {/* <Location /> */}
       <Footer />
     </div>
   );

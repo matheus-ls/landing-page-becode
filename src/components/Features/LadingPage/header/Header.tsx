@@ -44,14 +44,14 @@ const Header = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/">Sobre nós</a>
+              <a href="#sobre">Sobre nós</a>
             </li>
             <li>
-              <a href="/">Serviços</a>
+              <a href="#services">Serviços</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/">Perguntas Frequentes</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <FaBars onClick={handleMenuClick} className="btn-mobile" />
@@ -65,14 +65,14 @@ const Header = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/">Sobre nós</a>
+              <a href="#sobre">Sobre nós</a>
             </li>
             <li>
-              <a href="/">Serviços</a>
+              <a href="#services">Serviços</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/">Perguntas Frequentes</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

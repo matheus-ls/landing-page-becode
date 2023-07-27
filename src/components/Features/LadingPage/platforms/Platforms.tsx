@@ -5,7 +5,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function Platforms() {
   return (
-    <section className="platforms">
+    <section id="platforms">
       <div className=" list-items container">
         <div className="list-item">
           <h2>

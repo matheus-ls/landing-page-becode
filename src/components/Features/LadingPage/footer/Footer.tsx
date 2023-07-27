@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./../../../../assets/images/becode-logo.svg";
 import "./footer.scss";
 import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
+import Platforms from "../platforms/Platforms";
 
 function Footer() {
   return (
@@ -15,24 +16,24 @@ function Footer() {
         <ul className="contacts">
           <li>
             <FaPhoneAlt className="phone" />
-              <a href="tel:31994970540">(31) 99497-0540</a>
+              <a href="https://wa.me/+553194970540">(31) 99497-0540</a>
           </li>
-          <li>
+          {/* <li>
             <FaPhoneAlt className="phone" />
               <a href="tel:31983568142">(31) 98356-8142</a>
-          </li>
+          </li> */}
         </ul>
         <ul className="social">
           <li>
-            <a href="/">
+            <a href="https://instagram.com/becodetecnologia?igshid=MzRlODBiNWFlZA==">
               <FaInstagram className="insta" />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/">
               <FaLinkedin className="linkedin" />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <p className="copy">© 2022 Todos os direitos reservados.</p>
